@@ -1,0 +1,55 @@
+.imgheader{
+    margin-left: 10px;
+    margin-right: 300px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+        
+
+.icon{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.toolbar-content{
+    background-color: rgb(0, 217, 255);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; 
+    height: 50px;
+}
+
+.imgprinc{
+    filter: brightness(45%);
+}
+
+.textimgprinc{
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.container{
+    position: relative;
+}
+
+p{
+    margin: 20px;
+}
+
+h3{
+    margin: 20px
+}
